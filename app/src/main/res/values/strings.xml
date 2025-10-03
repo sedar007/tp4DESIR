@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">tp4DESIR</string>
+
+
+    // Btn
+    <string name="btn_cancel_label">Annuler</string>
+    <string name="btn_validate_label">Valider</string>
+
+    // No App
+    <string name="no_app_available_toast">Aucune application disponible</string>
+
+    // number
+    <string name="text_view_number_hint">Saisir un numéro</string>
+    <string name="text_view_number_text">Numéro</string>
+    <string name="invalid_number_toast">Numéro invalide</string>
+
+    //message
+    <string name="text_view_message_hint">Saisir votre message</string>
+    <string name="text_view_message_text">Message</string>
+    <string name="empty_message_toast">Message vide</string>
+
+    // url
+    <string name="text_view_url_hint">Saisir une URL</string>
+    <string name="text_view_url_text">URL</string>
+    <string name="invalid_url_toast">URL invalide</string>
+
+    // geo
+    <string name="text_view_latitude_hint">Saisir la latitude</string>
+    <string name="text_view_longitude_hint">Saisir la longitude</string>
+    <string name="text_view_latitude_text">Latitude</string>
+    <string name="text_view_longitude_text">Longitude</string>
+    <string name="invalid_latitude_toast">Latitude invalide</string>
+    <string name="invalid_longitude_toast">Longitude invalide</string>
+    <string name="empty_coordinates_toast">Coordonnées vides</string>
+    <string name="invalid_coordinates_toast">Coordonnées invalides</string>
+
+
+
+    // Main Activity
+    <string name="title">tp4</string>
+    <string name="main_activity_label">Intentions Implicites</string>
+    <string name="main_activity_call_button">Appeler</string>
+    <string name="main_activity_sms_button">SMS</string>
+    <string name="main_activity_mms_button">mms</string>
+    <string name="main_activity_web_button">Web</string>
+    <string name="main_activity_geo_button">géo</string>
+
+
+    // Call Activity
+    <string name="call_activity_label">Saisie Téléphone</string>
+
+
+    // Message Activity
+    <string name="message_activity_label">Saisie d\'un message</string>
+
+    // Web Activity
+    <string name="web_activity_label">Saisie URL</string>
+
+    // Geo Activity
+    <string name="geo_activity_label">Saisie Coordonnées</string>
+
+
+</resources>
