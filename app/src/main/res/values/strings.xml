@@ -39,11 +39,11 @@
     // Main Activity
     <string name="title">tp4</string>
     <string name="main_activity_label">Intentions Implicites</string>
-    <string name="main_activity_call_button">Appeler</string>
+    <string name="main_activity_call_button">APPELER</string>
     <string name="main_activity_sms_button">SMS</string>
-    <string name="main_activity_mms_button">mms</string>
-    <string name="main_activity_web_button">Web</string>
-    <string name="main_activity_geo_button">géo</string>
+    <string name="main_activity_mms_button">MMS</string>
+    <string name="main_activity_web_button">WEB</string>
+    <string name="main_activity_geo_button">GÉO</string>
 
 
     // Call Activity

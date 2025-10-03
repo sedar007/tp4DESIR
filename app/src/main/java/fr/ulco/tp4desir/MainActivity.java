@@ -33,35 +33,34 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private void startActivityOnClick(final Intent intent, final String toastMessage ){
-        Toast.makeText(this,toastMessage , Toast.LENGTH_SHORT).show();
-        startActivity(intent);
-    }
 
     public void onButtonClick(View view){
-
+        Intent intent;
         if(view.getId() == R.id.callButton){
-            startActivityOnClick(new Intent(this, CallActivity.class),
-                    getString(R.string.main_activity_call_button));
+            intent = new Intent(this, CallActivity.class);
         }
         else if (view.getId() == R.id.smsButton) {
-            Intent intent = new Intent(this, MessageActivity.class);
+            intent = new Intent(this, MessageActivity.class);
             intent.putExtra(SMS, true);
-            startActivityOnClick(intent, getString(R.string.main_activity_sms_button));
 
         }
         else if (view.getId() == R.id.mmsButton) {
-            Intent intent = new Intent(this, MessageActivity.class);
+            intent = new Intent(this, MessageActivity.class);
             intent.putExtra(MMS, true);
-            startActivityOnClick(intent, getString(R.string.main_activity_mms_button));
         }
        else if (view.getId() == R.id.webButton) {
-            startActivityOnClick(new Intent(this, WebActivity.class), getString(R.string.main_activity_web_button));
+            intent = new Intent(this, WebActivity.class);
         }
 
        else if (view.getId() == R.id.geoButton) {
-            startActivityOnClick(new Intent(this, GeoActivity.class), getString(R.string.main_activity_geo_button));
+            intent = new Intent(this, GeoActivity.class);
         }
+        else {
+              Toast.makeText(this, getString(R.string.no_app_available_toast), Toast.LENGTH_SHORT).show();
+              return;
+          }
+
+        startActivity(intent);
     }
 
 }
